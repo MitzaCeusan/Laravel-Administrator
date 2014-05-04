@@ -941,8 +941,10 @@
 			this.viewModel.languages = adminData.languages;
 
 			//set up the rowsPerPageOptions
-			for (var i = 1; i <= 100; i++)
-			{
+			// for (var i = 1; i <= 100; i++)
+			var items = [10,25,50,100];
+			for (index = 0; index < a.length; ++index) {
+				i = items[index];
 				this.viewModel.rowsPerPageOptions.push({id: i, text: i + ''});
 			}
 
