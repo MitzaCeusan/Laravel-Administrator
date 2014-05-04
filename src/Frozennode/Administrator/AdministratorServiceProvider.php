@@ -137,10 +137,12 @@ class AdministratorServiceProvider extends ServiceProvider {
 	 */
 	public function setLocale()
 	{
-		if ($locale = $this->app->session->get('administrator_locale'))
-		{
-			$this->app->setLocale($locale);
-		}
+		// if ($locale = $this->app->session->get('administrator_locale'))
+		// {
+		// 	$this->app->setLocale($locale);
+		// }
+
+		$this->app->setLocale('en');
 	}
 
 }
