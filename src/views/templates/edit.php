@@ -172,7 +172,7 @@
 			<!-- /ko -->
 
 			<!-- ko if: type === 'image' -->
-				<div class="upload_container" data-bind="attr: {id: field_id}">
+				<div class="upload_container" data-bind="attr: {id: field_id}" style="font-family:'Oxygen', sans-serif;">
 					<div class="uploader" data-bind="attr: {disabled: $root.freezeForm, id: field_name + '_uploader'}, value: $root.activeItem,
 											fileupload: {field: field_name, size_limit: size_limit, uploading: uploading, image: true,
 														upload_percentage: upload_percentage, upload_url: upload_url}">

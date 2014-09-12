@@ -1294,11 +1294,11 @@ body label {
 }
 #admin_page #content div.item_edit_container {
   position: absolute;
-  top: 35px;
+  top: 0px;
   bottom: 0;
   right: 0;
   width: 285px;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 #admin_page #content div.item_edit_container h2 {
   margin-bottom: 15px;
